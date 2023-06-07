@@ -1,0 +1,1 @@
+[05-Jun-2023 16:47:27 UTC] PHP Warning:  error_log(../log/error_log.txt): Failed to open stream: No such file or directory in /Users/saoi/Douglas College/CSIS3280 Bangbang/Assignments/Assignment2_SAo69796/inc/Validate.class.SAo69796.php on line 27

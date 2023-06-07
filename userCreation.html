@@ -1,0 +1,122 @@
+<!-- Start the page 'header' -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="">
+        <title></title>        
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Assignment 2: Form Processing by Nobody (1234567)</h1>
+        </header>
+                        
+            <section class="main">
+                <!-- Start the page's form -->
+                <div class="form">
+                    <form action="" method="post">
+                        <fieldset id="form">
+                            <legend>User Registration Page</legend>
+                            <div>                                
+                                <label for="fullName">Full Name</label>
+                                <input type="text" name="fullName" id="fullName" placeholder="First and last name">
+                            </div>
+                            <div>                                
+                                <label for="email">Email Address</label>
+                                <input type="email" name="email" id="email" placeholder="someone@here.ca">
+                            </div>                              
+                            <div>
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="text" name="phoneNumber" id="phoneNumber" placeholder="(nnn) nnn nnnn">
+                            </div>                                                          
+                            <div>
+                                <label for="age">Age</label>
+                                <input type="text" name="age" id="age" placeholder="age between 13 and 60">
+                            </div>                                                
+                            <div>
+                                <label for="profilePic">Profile Picture</label>
+                                <div class="button">
+                                    <span>
+                                        <input type="radio" name="profilePic" id="profilePic1" value="profile1"><img src="images/profile1.png">
+                                        <input type="radio" name="profilePic" id="profilePic2" value="profile2"><img src="images/profile2.png">                    
+                                        <input type="radio" name="profilePic" id="profilePic3" value="profile3"><img src="images/profile3.png">
+                                        <input type="radio" name="profilePic" id="profilePic4" value="profile4"><img src="images/profile4.png">                                        
+                                    </span>
+                                
+                                </div>
+                            </div>
+                            <div>
+                                <label for="learning">Learning Path</label>
+                                <select name="learning">
+                                    <option value="Select...">Please select one option</option>
+                                    <option value="data">Data Science</option>
+                                    <option value="software">Software Developer</option>
+                                    <option value="cyber">CyberSecurity</option>
+                                </select>
+                            </div>                            
+                            <div>
+                                <input type="submit" name="submit" value="Submit Registration">
+                                <input type="reset" name="reset" value="Clear Data">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </section> 
+            <section class="sidebar">
+                <!-- Start the page's error notification -->
+                <div class="highlight">
+                    <p>Please fix the following errors:</p>
+                    <ul>
+                        <li>Error 1</li>
+                        <li>Error 2</li>
+                    </ul>                                        
+                </div>
+                
+                <!-- Start the page's thank you notification -->
+                <div class="highlight">
+                    <h2>
+                        Your registration has been submitted.<br>
+                        
+                    </h2>
+                                                           
+                </div>
+                
+                <!-- Start the page's display submitted data -->
+                <div class="data">
+                    <b>Entered data is:</b>
+                    <table>
+                        
+                        <tr>
+                            <th>Name</th>
+                            <td>Name entry</td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td>Email entry</td>
+                        </tr>
+                        <tr>
+                            <th>Phone</th>
+                            <td>Phone entry</td>
+                        </tr>
+                        <tr>
+                            <th>Age</th>
+                            <td>Age</td>
+                        </tr>                        
+                        <tr>
+                            <th>Profile Picture</th>
+                            <td>Profile Picture</td>
+                        </tr>
+                        <tr>                            
+                            <th>Learning Path</th>                        
+                            <td>Learning Path</td>                        
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            
+        <!-- Start the page's footer -->            
+        
+    </body>
+
+</html>
